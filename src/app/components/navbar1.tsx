@@ -7,7 +7,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 const inter = Inter({subsets:['latin']})
 
 const Navbar1 = () => {
-    let navItems = [{
+    const navItems = [{
         name:"Plant pots",
         link:"/products"
     },
