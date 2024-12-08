@@ -45,7 +45,7 @@ const Branding = () => {
                     <div className='my-3  flex items-center justify-between'>
                     <h2 className={`${heebo.className} text-[16px] md:text-[20px] font-normal text-greyhome`}>Unbeatable prices</h2>
                 </div>
-                <p className='my-3 text-greyhome m-auto w-[100%]'>For our materials and quality you won't find better prices anywhere</p>
+                <p className='my-3 text-greyhome m-auto w-[100%]'>For our materials and quality you won&apos;t find better prices anywhere</p>
             </div>
         </div>
         

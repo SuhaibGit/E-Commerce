@@ -36,7 +36,7 @@ const Navbar2 = () => {
     link:"/products"
 },
 ]
-let impitems=[{
+const impitems=[{
   name:"Blog",
   link:"#"
 },

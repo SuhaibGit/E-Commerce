@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Dropdown = () => {
   const [selectedQuantity, setSelectedQuantity] = useState(1);
 
-  const handleChange = (e:any) => {
+  const handleChange = (e:React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedQuantity(Number(e.target.value));
   };
 

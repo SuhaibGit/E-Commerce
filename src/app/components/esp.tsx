@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
 import { IoIosCheckmarkCircle } from "react-icons/io";
-Link
 
 const Esp = () => {
   return (
