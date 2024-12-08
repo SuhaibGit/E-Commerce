@@ -6,9 +6,13 @@ import Pro_det from '@/app/components/pro_det'
 import React from 'react'
 import { products } from '../productsData'
 
-export default async function Product({ params }: { params: { product: string } }) {
+interface ProductParams {
+  product: string;
+}
+export default async function Product({ params }: { params:  Promise<ProductParams>  }) {
+
   const { product } = await params;  // Access the productId from params
-  const productid = products.find((p) => p.id === Number(product));  // Convert productId to number to match the type
+  const productid = products.find((p) => p.id == Number(product));  // Convert productId to number to match the type
 
   if (!productid) {
     return <p>Product not found</p>;
