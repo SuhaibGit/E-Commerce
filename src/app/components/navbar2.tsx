@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import {Inter} from "@next/font/google"
+import {Inter} from "next/font/google"
 import { CiSearch } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegUserCircle } from "react-icons/fa";
