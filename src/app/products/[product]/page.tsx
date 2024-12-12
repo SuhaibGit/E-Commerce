@@ -22,7 +22,8 @@ export default async function Product({ params }: { params:  Promise<ProductPara
     <div>
         <Navbar1/>
         <Pro_det product={productid}/>
-      <h1 className="text-[32px] font-light bg-white text-primaryblue pl-[20px] md:pl-[120px] pt-[40px]">You Might also like</h1>
+      <div className='h-auto w-[100%] flex flex-col'><h1 className=" text-[32px] font-light bg-white text-primaryblue pl-[20px] md:pl-[120px] pt-[40px]">You Might also like</h1>
+      </div>
       <Listing/>
       <Branding/>
       <Footer/>
