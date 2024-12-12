@@ -8,7 +8,7 @@ const AllProduct = () => {
   return (
     <>
     <Navbar/>
-    <div className="h-[209px] w-[100%] bg-[url('/assets/abc.jpg')] bg-cover bg-center flex justify-start  items-center pl-[150px] pt-[80px] text-[36px] font-light"> <h1>All Products</h1></div>
+    <div className="h-[209px] w-[100%] bg-[url('/assets/abc.jpg')] bg-cover bg-center flex justify-start  items-center pl-[60px] md:pl-[150px] pt-[80px] text-[36px] font-light"> <h1>All Products</h1></div>
     <div className='h-[90%px] bg-white flex flex-col justify-center items-center'>
         <div className='flex flex-wrap gap-4 justify-center pt-6 mb-8'>
             {products.map((product)=>(

@@ -50,48 +50,44 @@ const impitems=[{
 }
 
 ]
-  return (
-    <div className='h-[132px] bg-white  text-greyhome flex flex-col justify-end'>
-    <div className='h-[60px] border-b border-gray-300 justify-center' >
-        <div className=' flex justify-between items-center'>
-            
-            <h1 className='ml-[28px] font-medium text-[24px] text-[#22202E]'>Avion</h1>
-        
-            <div className='flex justify-end items-center'>
-            <ul className={`${inter.className}  flex flex-row item-center justify-center font-medium text-[16px] text-greyhome space-x-6 mr-5`}>   
-            { 
-            impitems.map((item , i) => (
-                <li key={i}>
-                    <Link href={item.link}>
-                    {item.name}
-                    </Link>
-                </li>
-            ))
-            }
-        </ul>
-            <Link href={''}><CiSearch  className="mr-[28px] w-[16px] h-[16px]" /></Link>
-            <Link href={''}><IoCartOutline className=' mr-[28px] w-[16px] h-[16px]' /></Link>
-            <Link href={''}><FaRegUserCircle className=' mr-[28px] w-[16px] h-[16px]'/></Link>
+return (
+    <div className='h-auto bg-white text-greyhome flex flex-col justify-end'>
+        <div className='h-[60px] border-b border-gray-300 flex items-center justify-between px-4 md:px-8'>
+            <h1 className='font-medium text-[20px] md:text-[24px] text-[#22202E]'>Avion</h1>
+            <div className=' flex items-center space-x-4 md:space-x-6'>
+                <ul className={`${inter.className} hidden md:flex flex-row items-center justify-center font-medium text-[14px] md:text-[16px] text-greyhome space-x-4 md:space-x-6`}>
+                    {impitems.map((item, i) => (
+                        <li key={i}>
+                            <Link href={item.link}>
+                                {item.name}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+                <Link href=''>
+                    <CiSearch className="w-[16px] h-[16px]" />
+                </Link>
+                <Link href=''>
+                    <IoCartOutline className='w-[16px] h-[16px]' />
+                </Link>
+                <Link href=''>
+                    <FaRegUserCircle className='w-[16px] h-[16px]' />
+                </Link>
             </div>
         </div>
-    </div>
-    <div className=' h-[40px] p-[4px] flex justify-center bg-[#F9F9F9]'> 
-            <ul className={`${inter.className}  flex flex-row item-center justify-center font-medium text-[16px] text-greyhome space-x-8`}>   
-            { 
-            navItems.map((item , i) => (
-                <li key={i}>
-                    <Link href={item.link}>
-                    {item.name}
-                    </Link>
-                </li>
-            ))
-            }
-        </ul>
-        
-
+        <div className='hidden md:h-[40px] md:p-2 md:flex md:justify-center bg-[#F9F9F9]'>
+            <ul className={`${inter.className} flex flex-row items-center justify-center font-medium text-[14px] md:text-[16px] text-greyhome space-x-4 md:space-x-8`}>
+                {navItems.map((item, i) => (
+                    <li key={i}>
+                        <Link href={item.link}>
+                            {item.name}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
         </div>
     </div>
-  )
+);
 }
 
 export default Navbar2

@@ -9,7 +9,7 @@ const Dropdown = () => {
   };
 
   return (
-    <div className=" flex items-center w-[100px]">
+    <div className=" flex  items-center w-[100px]">
       <label htmlFor="quantity" className="flex text-[#22202E]  font-medium pr-5">Quantity</label>
       <select
         id="quantity"

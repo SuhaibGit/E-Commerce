@@ -5,7 +5,7 @@ import { products } from "../products/productsData";
 const Listing = () => {
     const limitedProducts = products.slice(0, 4);
   return (
-    <div className='h-[634px] bg-white flex flex-col justify-center items-center'>
+    <div className='h-auto md:h-[634px] bg-white flex flex-col justify-center items-center'>
         <div className='flex flex-wrap gap-4 justify-center pt-6 mb-8'>
             {limitedProducts.map((product)=>(
                 <div key={product.id} className="w-[305px] h-[462px] bg-white">
@@ -28,23 +28,3 @@ const Listing = () => {
 }
 
 export default Listing
-        {/* <div className='w-[305px] h-[462px] bg-black'>
-            <div  className="h-[375px] bg-[url('/assets/herob.jpg')] bg-cover bg-center">
-            <Link href={"products/product"}></Link>
-            </div>
-        </div>
-        <div className='w-[305px] h-[462px] bg-black'>
-            <div  className="h-[375px] bg-[url('/assets/herob.jpg')] bg-cover bg-center">
-            <Link href={"products/product"}></Link>
-            </div>
-        </div>
-        <div className='w-[305px] h-[462px] bg-black'>
-            <div  className="h-[375px] bg-[url('/assets/herob.jpg')] bg-cover bg-center">
-            <Link href={"products/product"}></Link>
-            </div>
-        </div>
-        <div className='w-[305px] h-[462px] bg-black'>
-            <div  className="h-[375px] bg-[url('/assets/herob.jpg')] bg-cover bg-center">
-            <Link href={"products/product"}></Link>
-            </div>
-        </div> */}
