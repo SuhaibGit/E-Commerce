@@ -9,7 +9,7 @@ const Pro_det = ({ product }: { product: { title: string; description: string; i
 
   return (
     
-    <div className='h-[1400px] md:h-[600px] w-[100%] flex flex-wrap md:flex-row'>
+    <div className='h-[1450px] md:h-[600px] w-[100%] flex flex-wrap md:flex-row mb-11 md:mb-0'>
         <div className="h-[50%] md:h-[100%] w-[100%] md:w-[50%] bg-cover bg-center"
         style={{ backgroundImage: `url(${product.image})` }}></div>
         <div className='w-[100%] md:w-[50%] h-[100%] bg-slate-50 flex flex-col justify-start items-center'>
