@@ -46,14 +46,14 @@ const Footer = () => {
                     placeholder="your@email.com"
                     className="w-[75%] flex-grow px-4 py-2 border border-greyhome  placeholder-[#d7d6dd] bg-greyhome"
                 />
-                <button className="w-[25%] px-3 py-2 bg-white text-primaryblue font-medium text-[17.53px] ">
+                <button className="w-[25%] px-3 py-2 bg-white text-primaryblue font-medium text-[14px] ">
                 Sign up
                 </button>
             </div>
         </div>
       
     </div>
-    <div className='w-[90%] flex flex-col md:flex-row justify-between items-center mt-4'>
+    <div className='w-[90%] flex flex-col md:flex-row justify-between items-center mt-4 text-white'>
         <h2 className='text-[14px]'>Copyright 2022 Avion LTD</h2>
         <div className='w-[263px] flex justify-between mt-2 md:mt-0 '>
             <div className="flex space-x-6 justify-between ">

@@ -22,7 +22,7 @@ const Esp = () => {
               placeholder="your@email.com"
               className="w-[75%] flex-grow px-4 py-2 border border-gray-300  "
           />
-          <button className="w-[25%] px-3 py-2 bg-primaryblue text-white font-medium text-[14px] ">
+          <button className="w-[25%] px-3 py-2 bg-primaryblue text-white font-medium text-[12px] ">
           Sign up
           </button>
   </div>
