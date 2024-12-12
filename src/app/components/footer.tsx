@@ -54,7 +54,7 @@ const Footer = () => {
       
     </div>
     <div className='w-[90%] flex flex-col md:flex-row justify-between items-center mt-4 text-white'>
-        <h2 className='text-[14px]'>Copyright 2022 Avion LTD</h2>
+        <h2 className='text-[11px] md:text-[14px]'>Copyright 2022 Avion LTD</h2>
         <div className='w-[263px] flex justify-between mt-2 md:mt-0 '>
             <div className="flex space-x-6 justify-between ">
                 <Link href={''}><FaFacebookSquare className="w-[24px] h-[24px]" /></Link>
