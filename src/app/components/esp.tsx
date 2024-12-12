@@ -17,14 +17,14 @@ const Esp = () => {
       </ul>
       <div className="w-90% md:w-[472px] h-auto md:h-[56px] flex items-center justify-center mt-8">
         <div className="flex w-full max-w-md">
-          <input
-            type="email"
-            placeholder="your@email.com"
-            className="flex-grow px-4 py-2 border border-gray-300"
+        <input
+              type="email"
+              placeholder="your@email.com"
+              className="w-[75%] flex-grow px-4 py-2 border border-gray-300  "
           />
-      <button className="px-6 py-2 bg-primaryblue text-white font-semibold ">
-      Sign up
-    </button>
+          <button className="w-[25%] px-3 py-2 bg-primaryblue text-white font-medium text-[14px] ">
+          Sign up
+          </button>
   </div>
 </div>
 
@@ -34,3 +34,4 @@ const Esp = () => {
 }
 
 export default Esp
+
